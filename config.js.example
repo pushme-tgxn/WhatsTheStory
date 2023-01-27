@@ -1,0 +1,13 @@
+export const JobDefs = [
+  {
+    type: "multi",
+    user: "romaixn",
+    multi: "webdev",
+    sendtokens: ["YOUR_PUSH_TOKEN"],
+  },
+  {
+    type: "sub",
+    sub: "worldnews",
+    sendtokens: ["YOUR_PUSH_TOKEN"],
+  },
+];

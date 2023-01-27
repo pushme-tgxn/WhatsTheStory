@@ -1,0 +1,17 @@
+{
+  "name": "whatsthestory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "@pushme-tgxn/pushmesdk": "^1.10.6",
+    "axios": "^1.2.4",
+    "cron": "^2.2.0",
+    "moment": "^2.29.4"
+  }
+}

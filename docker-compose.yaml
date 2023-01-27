@@ -1,0 +1,9 @@
+version: "3.1"
+
+services:
+  whatsthestory:
+    image: whatsthestory:local
+    build: .
+    volumes:
+      - ./config.js:/usr/src/app/config.js
+    restart: always
