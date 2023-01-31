@@ -10,4 +10,4 @@ COPY ./package-lock.json /usr/src/app
 WORKDIR /usr/src/app
 RUN npm install
 
-CMD ["npm start"]
+ENTRYPOINT ["npm", "start"]
