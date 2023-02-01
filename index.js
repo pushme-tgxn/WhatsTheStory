@@ -62,8 +62,11 @@ async function runJob(jobDef) {
     break;
   }
 
+  const backendUrl = jobDef.backendUrl || Consts.BACKEND_URL;
+  console.log(`Using backend URL: ${backendUrl}`);
+
   const pushmeClient = new PushMeSDK({
-    backendUrl: jobDef.backendUrl || Consts.BACKEND_URL,
+    backendUrl,
   });
 
   // which link to send (comments vs. direct link)
