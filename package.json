@@ -1,6 +1,6 @@
 {
   "name": "whatsthestory",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,8 +9,8 @@
   "type": "module",
   "license": "MIT",
   "dependencies": {
-    "@pushme-tgxn/pushmesdk": "^1.10.6",
-    "axios": "^1.2.4",
+    "@pushme-tgxn/pushmesdk": "^1.10.8",
+    "axios": "^1.3.0",
     "cron": "^2.2.0",
     "moment": "^2.29.4"
   }

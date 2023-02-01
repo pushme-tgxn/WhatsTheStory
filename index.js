@@ -67,6 +67,7 @@ async function runJob(jobDef) {
 
   const pushmeClient = new PushMeSDK({
     backendUrl,
+    timeout: 10000, // extend this
   });
 
   // which link to send (comments vs. direct link)
